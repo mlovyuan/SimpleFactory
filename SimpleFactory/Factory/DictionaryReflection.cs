@@ -4,11 +4,11 @@ using System.Collections.Generic;
 
 namespace SimpleFactory.Factory
 {
-    static class MeReflection
+    static class DictionaryReflection
     {
         private static Dictionary<SportCategory, Func<object>> SportDictionary;
 
-        static MeReflection()
+        static DictionaryReflection()
         {
             //SportDictionary = new Dictionary<SportCategory, Func<object>>
             //{

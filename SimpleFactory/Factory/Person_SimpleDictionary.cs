@@ -18,7 +18,6 @@ namespace SimpleFactory.Factory
 
         public static ISport GetSport(SportCategory sportName)
         {
-
             SportDictionary.TryGetValue(sportName, out ISport sportClass);
             return sportClass;
         }
